@@ -21,7 +21,7 @@ line_highlights: 8
 ---
 function draw() {
   background(100, 80, 30);
-  text("🌱",  width/2, height/2);
+  text("🌱",  width/2, height/2); // draw the emoji in the middle
 }
 --- /code ---
 

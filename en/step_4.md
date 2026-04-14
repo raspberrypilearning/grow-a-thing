@@ -17,7 +17,7 @@ function draw() {
 }
 
 function mousePressed() {
-  plantsize += 4;
+  plantsize += 4; // make the plant grow when clicked
 }
 --- /code ---
 </div>

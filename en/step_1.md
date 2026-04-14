@@ -16,7 +16,7 @@ line_number_start: 6
 line_highlights: 7
 ---
 function draw() {
-  background(100, 80, 30);
+  background(100, 80, 30); // set the background colour
 }
 --- /code ---
 </div>

@@ -10,7 +10,7 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 1, 10
 ---
-let plantsize = 20;
+let plantsize = 20; // starting size for the plant
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -19,7 +19,7 @@ function setup() {
 
 function draw() {
   background(100, 80, 30);
-  textSize(plantsize);
+  textSize(plantsize); // use the size stored above
   text("🌱",  width/2, height/2);
 }
 --- /code ---

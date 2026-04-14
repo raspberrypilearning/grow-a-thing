@@ -14,8 +14,8 @@ filename: scripts.js
 line_numbers: false
 ---
 function mousePressed() {
-  if (plantsize > 10) {
-    plantsize -= 4;
+  if (plantsize > 10) { // only shrink if it is still big enough
+    plantsize -= 4; // make the plant smaller
   }
 }
 --- /code ---
