@@ -1,5 +1,10 @@
-## Choose a cone
-Add a background colour.
+## Add a background colour.
+
+## Step 1
+Click on **Project file** tab and select script.js.
+
+## Step 2
+Add the code below to add the background.
 
 <div class="c-project-callout c-project-callout--tip">
 

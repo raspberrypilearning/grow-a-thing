@@ -1,4 +1,4 @@
-## Challenge
+## Challenges
 Use `random()` to choose where the scoop appears across the screen.
 
 ## Shrink a thing
