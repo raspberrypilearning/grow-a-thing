@@ -16,22 +16,22 @@ Use `text()` to draw an thing to grow. The code below uses a 🌱, but you can c
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 22
-line_highlights: 24
+line_number_start: 7
+line_highlights: 8
 ---
 function draw() {
-    background(100, 80, 30);
-    text("🌱",  width/2, height/2);
+  background(100, 80, 30);
+  text("🌱",  width/2, height/2);
 }
 --- /code ---
 
 </div>
 
 ### Now run your code
-You should see the emoji text appear in the middle of the output screen.
+You should see the emoji text appear in the middle of the **Preview window**.
 
 <div class="c-project-output">
 
-![Step 2 project output](images/step2.gif)
+![A brown background with a plant emoji in the middle of the screen](images/step2.png)
 
 </div>

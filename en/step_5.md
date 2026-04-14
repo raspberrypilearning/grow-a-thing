@@ -32,7 +32,7 @@ You will need another `if` to make the plant bigger again after it gets too smal
 ## Grow lots of things
 Add more things to grow and shrink!
 
-Try adding more emojis or text and make them grow and shrink in different ways.
+Try adding more emojis or text and make them grow and shrink in different ways. They could have different growing speeds.
 
 <div class="c-project-callout c-project-callout--tip">
 

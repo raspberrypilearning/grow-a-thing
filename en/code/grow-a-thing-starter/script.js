@@ -1,6 +1,6 @@
 function setup() {
-    createCanvas(windowWidth, windowHeight);
-    textAlign(CENTER);
+  createCanvas(windowWidth, windowHeight);
+  textAlign(CENTER);
 }
 
 function draw() {

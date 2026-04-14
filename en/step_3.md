@@ -7,20 +7,20 @@ Add `plantsize` at the top. This is used to change the size of the plant emoji i
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 14
-line_highlights: 16
+line_number_start: 1
+line_highlights: 1, 10
 ---
-let plantsize = 12;
+let plantsize = 20;
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
-    textAlign(CENTER);
+  createCanvas(windowWidth, windowHeight);
+  textAlign(CENTER);
 }
 
 function draw() {
-    background(100, 80, 30);
-    textSize(plantsize);
-    text("🌱",  width/2, height/2);
+  background(100, 80, 30);
+  textSize(plantsize);
+  text("🌱",  width/2, height/2);
 }
 --- /code ---
 </div>
@@ -30,6 +30,6 @@ The emoji should change to the size it is set at the top of the code. Experiment
 
 <div class="c-project-output">
 
-![ADD](images/step3.gif)
+![A brown background with a plant emoji in the middle shown at the chosen text size](images/step3.png)
 
 </div>
