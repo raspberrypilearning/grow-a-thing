@@ -21,25 +21,20 @@ line_numbers: true
 line_number_start: 14
 line_highlights: 16
 ---
-let plantsize = 12;
-
-function setup() {
-    createCanvas(windowWidth, windowHeight);
-    textAlign(CENTER);
-}
-
 function draw() {
     background(100, 80, 30);
     textSize(plantsize);
  text("🌱",  width/2, height/2);
 }
 
+function mousePressed() {
+  plantsize += 4;
+}
+
 --- /code ---
 
 </div>
 
-## Step 2
-Add `scoopX` to the x position of the `image()`, so that this is in a random position each time the code runs.
 
 ### Now run your code
 Start and stop the code. The scoop of ice-cream should appear in a different position every time you start again.

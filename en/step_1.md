@@ -1,45 +1,60 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+## Choose a cone
+Add an image for the cone that catches the ice-cream scoops
 
-A brief description - one or two sentences. 
+## Step 1
+Click on the **Image gallery** icon to see all the image files in this project. Choose the cone you want to use.
 
---- print-only ---
+## Step 2
+Click on **Project file** tab and select script.js.
 
-![ALT TEXT](images/IMAGE.png)
+## Step 3
+Change the file name in `load_image()` to the cone you want to use.
 
---- /print-only ---
-
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
+<div class="c-project-code">
+--- code ---
+---
+language: javascript
+filename: script.js
+line_numbers: true
+line_number_start: 3
+line_highlights: 4
+---
+function preload() {
+  cone = loadImage("cone1.png");
+}
+--- /code ---
 </div>
 
---- /no-print ---
+## Step 4
+Add the image to the `draw()`
 
-### You will need:
-- a
-- b
-- c
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+- The screen is like a grid, and each image has an x and y position, for example, `image(img, x, y)` 
+- The code below that uses the `mouseX` value for the x position. 
+</div>
+
+<div class="c-project-code">
+--- code ---
+---
+language: javascript
+filename: script.js
+line_numbers: true
+line_number_start: 16
+line_highlights: 19
+---
+function draw() {
+    background(100, 80, 30);
+}
+--- /code ---
+</div>
+
+### Now run your code 
+You can see cone move with your curser. Edit the y position of the cone image to fit to your screen.
+
+<div class="c-project-output">
+
+![ADD](images/step1.gif)
+
+</div>
