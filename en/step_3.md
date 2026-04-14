@@ -1,16 +1,5 @@
-## Make the scoop random
-Use `random()` to choose where the scoop appears across the screen.
-
-## Step 1
-Set `scoopX` to a random number in `setup()`.
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-`random(0, width)` chooses a number from the width of the canvas.
-
-</div>
+## Change the plant size
+Add `plantsize` at the top. This is used to change the size of the plant emoji in `draw()`.
 
 <div class="c-project-code">
 --- code ---
@@ -31,18 +20,13 @@ function setup() {
 function draw() {
     background(100, 80, 30);
     textSize(plantsize);
- text("🌱",  width/2, height/2);
+    text("🌱",  width/2, height/2);
 }
-
 --- /code ---
-
 </div>
 
-## Step 2
-Add `scoopX` to the x position of the `image()`, so that this is in a random position each time the code runs.
-
 ### Now run your code
-Start and stop the code. The scoop of ice-cream should appear in a different position every time you start again.
+The emoji should change to the size it is set at the top of the code. Experiment with different sizes and run the code again.
 
 <div class="c-project-output">
 

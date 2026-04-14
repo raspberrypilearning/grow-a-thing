@@ -1,14 +1,11 @@
-## Make the scoop random
-Use `random()` to choose where the scoop appears across the screen.
-
-## Step 1
-Set `scoopX` to a random number in `setup()`.
+## Grow the plant
+Use `mousePressed()` to change the size when clicked.
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-`random(0, width)` chooses a number from the width of the canvas.
+`plantsize += 4` adds `4` to the current `plantsize`.
 
 </div>
 
@@ -22,25 +19,22 @@ line_number_start: 14
 line_highlights: 16
 ---
 function draw() {
-    background(100, 80, 30);
-    textSize(plantsize);
- text("🌱",  width/2, height/2);
+  background(100, 80, 30);
+  textSize(plantsize);
+  text("🌱",  width/2, height/2);
 }
 
 function mousePressed() {
   plantsize += 4;
 }
-
 --- /code ---
-
 </div>
 
-
 ### Now run your code
-Start and stop the code. The scoop of ice-cream should appear in a different position every time you start again.
+The emoji should get bigger. You have grown a thing! Try changing the number in `mousePressed()` to make it grow faster.
 
 <div class="c-project-output">
 
-![ADD](images/step3.gif)
+![Step 4 project output](images/step3.gif)
 
 </div>

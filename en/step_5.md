@@ -1,62 +1,43 @@
 ## Challenge
 Use `random()` to choose where the scoop appears across the screen.
 
-## Step 1
-Set `scoopX` to a random number in `setup()`.
+## Shrink a thing
+Try using and `if` and `-=` to make the plant smaller.
+
+Here is some code to help get started. 
+
+<div class="c-project-code">
+--- code ---
+---
+language: javascript
+filename: scripts.js
+line_numbers: false
+---
+function mousePressed() {
+  if (plantsize > 10) {
+    plantsize -= 4;
+  }
+}
+--- /code ---
+</div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-`random(0, width)` chooses a number from the width of the canvas.
+You will need another `if` to make the plant bigger again after it gets too small.
 
 </div>
 
-<div class="c-project-code">
---- code ---
----
-language: javascript
-filename: scripts.js
-line_numbers: true
-line_number_start: 14
-line_highlights: 16
----
-  fill(255, 0, 255);
+## Grow lots of things
+Add more things to grow and shrink!
 
-  scoopX = random(0, width);
-}
---- /code ---
+Try adding more emojis or text and make them grow and shrink in different ways.
 
-</div>
+<div class="c-project-callout c-project-callout--tip">
 
-## Step 2
-Add `scoopX` to the x position of the `image()`, so that this is in a random position each time the code runs.
+### Tip
 
-<div class="c-project-code">
---- code ---
----
-language: javascript
-filename: scripts.js
-line_numbers: true
-line_number_start: 19
-line_highlights: 23
----
-function draw() {
-  background(26, 100, 255);
-
-  image(cone, mouseX, 750);
-  
-  image(scoop, scoopX, 150, 150, 150);
-}
---- /code ---
-
-</div>
-
-### Now run your code
-Start and stop the code. The scoop of ice-cream should appear in a different position every time you start again.
-
-<div class="c-project-output">
-
-![ADD](images/step3.gif)
+You could use a new name like `plantsize2` to keep track of its size.
 
 </div>
