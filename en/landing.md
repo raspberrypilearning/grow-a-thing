@@ -1,6 +1,8 @@
 ## What you will make
 
-ADD TEXT
+Make a thing grow by clicking on it!
+
+Use code to draw an emoji or some text, then make it get bigger each time you click.
 
 Click on **Run** in the Code Editor below to try it out.
 
