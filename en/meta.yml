@@ -2,6 +2,7 @@ title: Project title in sentence case
 hero_image: images/banner.png
 description: A short description of the project
 listed: false
+landing: true
 pdf: false
 steps:
   - title: Step 1
