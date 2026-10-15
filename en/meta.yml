@@ -1,16 +1,16 @@
-title: Project title in sentence case
+title: Grow a thing
 hero_image: images/banner.png
-description: A short description of the project
+description: Draw an emoji or some text, then make it grow each time you click.
 listed: false
 landing: true
 pdf: false
 steps:
-  - title: Step 1
-  - title: Step 2
+  - title: Add a background colour
+  - title: Draw a thing
     completion:
       - engaged      
-  - title: Step 3
-  - title: Step 4
-  - title: Step 5
+  - title: Change the plant size
+  - title: Grow the plant
+  - title: Challenges
     completion:
       - external

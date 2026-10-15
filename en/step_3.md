@@ -5,7 +5,7 @@ Add `plantsize` at the top. You can use this to change the size of the plant emo
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 1
 line_highlights: 1, 10

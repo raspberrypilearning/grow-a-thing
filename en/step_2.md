@@ -14,7 +14,7 @@ Use `text()` to draw a thing to grow. The code below uses a 🌱, but you can ch
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 7
 line_highlights: 8
@@ -28,7 +28,7 @@ function draw() {
 </div>
 
 ### Now run your code
-You should see the emoji text appear in the middle of the **Preview window**.
+You should see the emoji or text appear in the middle of the **Preview window**.
 
 <div class="c-project-output">
 

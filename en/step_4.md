@@ -5,7 +5,7 @@ Use `mousePressed()` to make the plant change size when clicked.
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 8
 line_highlights: 14-16
@@ -31,7 +31,7 @@ function mousePressed() {
 </div>
 
 ### Now run your code
-The emoji should get bigger. You have grown a thing! Try changing the number in `mousePressed()` to make it grow faster.
+The emoji should get bigger when clicked. You have grown a thing! Try changing the number in `mousePressed()` to make it grow faster.
 
 <div class="c-project-output">
 

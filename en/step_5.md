@@ -1,8 +1,8 @@
 ## Challenges
-Use `random()` to choose where the scoop appears across the screen.
+Try these challenges to take your project further.
 
 ## Shrink a thing
-Try using and `if` and `-=` to make the plant smaller.
+Try using an `if` and `-=` to make the plant smaller.
 
 Here is some code to help you get started. 
 
@@ -10,7 +10,7 @@ Here is some code to help you get started.
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: false
 ---
 function mousePressed() {
@@ -38,6 +38,6 @@ Try adding more emojis or text and make them grow and shrink in different ways. 
 
 ### Tip
 
-You could use a new name like `plantsize2` to keep track of its size.
+You could use a new name like `plantsize2` to keep track of a new plant's size, for example.
 
 </div>
