@@ -1,6 +1,6 @@
 ## Draw a thing
 
-Use `text()` to draw an thing to grow. The code below uses a 🌱, but you can choose other emojis or text.
+Use `text()` to draw a thing to grow. The code below uses a 🌱, but you can choose other emojis or text.
 
 <div class="c-project-callout c-project-callout--tip">
 

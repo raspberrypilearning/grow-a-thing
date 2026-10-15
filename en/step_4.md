@@ -1,5 +1,5 @@
 ## Grow the plant
-Use `mousePressed()` to change the size when clicked.
+Use `mousePressed()` to make the plant change size when clicked.
 
 <div class="c-project-code">
 --- code ---

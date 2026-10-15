@@ -1,5 +1,5 @@
 ## Change the plant size
-Add `plantsize` at the top. This is used to change the size of the plant emoji in `draw()`.
+Add `plantsize` at the top. You can use this to change the size of the plant emoji in `draw()`.
 
 <div class="c-project-code">
 --- code ---
@@ -26,7 +26,7 @@ function draw() {
 </div>
 
 ### Now run your code
-The emoji should change to the size it is set at the top of the code. Experiment with different sizes and run the code again.
+The emoji should change to the size it is set to at the top of the code. Experiment with different sizes and run the code again.
 
 <div class="c-project-output">
 

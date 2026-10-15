@@ -4,7 +4,7 @@ Use `random()` to choose where the scoop appears across the screen.
 ## Shrink a thing
 Try using and `if` and `-=` to make the plant smaller.
 
-Here is some code to help get started. 
+Here is some code to help you get started. 
 
 <div class="c-project-code">
 --- code ---
